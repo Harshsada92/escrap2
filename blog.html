@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="blog.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+        <div >
+          <nav class="navbar navbar-expand-lg" id="navigation">
+            <nav class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><button
+                  class="custom-btn btn-3"
+                  style="color: rgb(7, 10, 10)"
+                  id="scrap"
+                >
+                  <b>Escrap</b>
+                </button></a
+              >
+              </nav>
+            <nav class="navbar navbar-expand-lg" id="navigation2"></nav>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="home.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="home"
+                      ><b>Home</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link"
+                      href="aboutus.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="about"
+                      ><b>About us</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="blog.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="blog"
+                      ><b>blog</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="buy.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="buy"
+                      ><b>buy/sell</b></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      href="index.html"
+                      style="color: rgb(7, 10, 10)"
+                      id="contact"
+                      ><b>contact us</b></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="slider owl-carousel" id="blogcards">
+          <div class="card">
+            <div class="img">
+              <img src="ewastepro12.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="title">Briana Tozour</div>
+              <div class="sub-title">Graphic Designer</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+                modi dolorem quis quae animi nihil minus sed unde voluptas
+                cumque.
+              </p>
+              <div class="btn">
+                <button>Read more</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="ewastepro11.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="title">Pricilla Preez</div>
+              <div class="sub-title">Web Developer</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+                modi dolorem quis quae animi nihil minus sed unde voluptas
+                cumque.
+              </p>
+              <div class="btn">
+                <button>Read more</button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="ewastepro13.jpeg" alt="" />
+            </div>
+            <div class="content">
+              <div class="title">Eliana Maia</div>
+              <div class="sub-title">App Developer</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit
+                modi dolorem quis quae animi nihil minus sed unde voluptas
+                cumque.
+              </p>
+              <div class="btn">
+                <button>Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script>
+          $(".slider").owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000, //2000ms = 2s;
+            autoplayHoverPause: true,
+          });
+        </script>
+    <div class="wrapper">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </body>
+</html>
